@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a15de7d142f24f96bccf5fab875a079c" Name="Diagram1">
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Cuenta" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Error" Width="1.5" PointX="3" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Estadistica" Width="1.5" PointX="3" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Moneda" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Pago" Width="1.5" PointX="8.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Servicio" Width="1.5" PointX="6" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Sesion" Width="1.5" PointX="3" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.SolicitudPrestamo" Width="1.5" PointX="5.25" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.SolicitudTarjeta" Width="1.5" PointX="5.25" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Transferencia" Width="1.5" PointX="5.25" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Usuario" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Cuenta_Moneda" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Cuenta_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Pago_Cuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_SolicitudPrestamo_Cuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_SolicitudTarjeta_Cuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Transferencia_Cuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Error_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Estadistica_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Pago_Servicio1" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Sesion_Usuario" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Activo" Width="1.5" PointX="5.25" PointY="0.875" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.CertificadoDeposito" Width="1.5" PointX="5.25" PointY="4.5" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Prestamo" Width="1.5" PointX="5.25" PointY="21.5" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Seguro" Width="1.5" PointX="5.25" PointY="24.625" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Activo_Cuenta" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_CertificadoDeposito_Cuenta" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Prestamo_Cuenta" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Seguro_Cuenta" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.PagoFavorito" Width="1.5" PointX="5.25" PointY="31.125" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.TarjetaDeCredito" Width="1.5" PointX="5.25" PointY="27.875" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_PagoFavorito_Cuenta" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_TarjetaDeCredito_Cuenta" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
