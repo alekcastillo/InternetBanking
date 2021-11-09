@@ -199,6 +199,7 @@
     <Content Include="Views\frmCuenta.aspx" />
     <Content Include="Views\frmMoneda.aspx" />
     <Content Include="Views\frmPago.aspx" />
+    <Content Include="Views\frmTarjetaDeCredito.aspx" />
     <Content Include="Views\frmPrestamo.aspx" />
     <Content Include="Views\frmReporteError.aspx" />
     <Content Include="Views\frmReporteEstadistica.aspx" />
@@ -206,6 +207,7 @@
     <Content Include="Views\frmSeguro.aspx" />
     <Content Include="Views\frmServicio.aspx" />
     <Content Include="Views\frmSolicitudPrestamo.aspx" />
+    <Content Include="Views\frmPagoFavorito.aspx" />
     <Content Include="Views\frmSolicitudTarjeta.aspx" />
     <Content Include="Views\frmTransferencia.aspx" />
     <Content Include="Web.config" />
@@ -353,6 +355,13 @@
     <Compile Include="Views\frmPago.aspx.designer.cs">
       <DependentUpon>frmPago.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\frmTarjetaDeCredito.aspx.cs">
+      <DependentUpon>frmTarjetaDeCredito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\frmTarjetaDeCredito.aspx.designer.cs">
+      <DependentUpon>frmTarjetaDeCredito.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\frmPrestamo.aspx.cs">
       <DependentUpon>frmPrestamo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -401,6 +410,13 @@
     </Compile>
     <Compile Include="Views\frmSolicitudPrestamo.aspx.designer.cs">
       <DependentUpon>frmSolicitudPrestamo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPagoFavorito.aspx.cs">
+      <DependentUpon>frmPagoFavorito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\frmPagoFavorito.aspx.designer.cs">
+      <DependentUpon>frmPagoFavorito.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\frmSolicitudTarjeta.aspx.cs">
       <DependentUpon>frmSolicitudTarjeta.aspx</DependentUpon>

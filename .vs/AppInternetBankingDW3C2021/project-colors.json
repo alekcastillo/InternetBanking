@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ea0bf05b-91f3-4abe-9262-10f679f50cb1": {
+      "ProjectGuid": "ea0bf05b-91f3-4abe-9262-10f679f50cb1",
+      "DisplayName": "API",
+      "ColorIndex": 0
+    },
+    "e675a802-5993-45c9-980a-ef25b0bd8429": {
+      "ProjectGuid": "e675a802-5993-45c9-980a-ef25b0bd8429",
+      "DisplayName": "AppWebInternetBanking",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
