@@ -74,9 +74,9 @@ namespace AppWebInternetBanking.Views
                     lblResultado.Visible = true;
                     lblResultado.ForeColor = Color.Maroon;
                 }
-                else if (txtNumeroDeTarjeta.Text.Length != 19)
+                else if (txtNumeroDeTarjeta.Text.Length != 16)
                 {
-                    lblResultado.Text = "El numero de tarjeta debe ser de 19 digitos.";
+                    lblResultado.Text = "El numero de tarjeta debe ser de 16 digitos.";
                     lblResultado.Visible = true;
                     lblResultado.ForeColor = Color.Maroon;
                 }
@@ -149,9 +149,9 @@ namespace AppWebInternetBanking.Views
                     lblResultado.Visible = true;
                     lblResultado.ForeColor = Color.Maroon;
                 }
-                else if (txtNumeroDeTarjeta.Text.Length != 19)
+                else if (txtNumeroDeTarjeta.Text.Length != 16)
                 {
-                    lblResultado.Text = "El numero de tarjeta debe ser de 19 digitos.";
+                    lblResultado.Text = "El numero de tarjeta debe ser de 16 digitos.";
                     lblResultado.Visible = true;
                     lblResultado.ForeColor = Color.Maroon;
                 }
