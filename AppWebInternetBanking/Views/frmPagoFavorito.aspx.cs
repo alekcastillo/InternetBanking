@@ -124,6 +124,12 @@ namespace AppWebInternetBanking.Views
                     lblResultado.Visible = true;
                     lblResultado.ForeColor = Color.Maroon;
                 }
+                else if (txtIBAN.Text.Length != 22)
+                {
+                    lblResultado.Text = "El IBAN debe ser de 22 digitos.";
+                    lblResultado.Visible = true;
+                    lblResultado.ForeColor = Color.Maroon;
+                }
                 else
                 {
                     PagoFavorito pagoFavorito = new PagoFavorito()

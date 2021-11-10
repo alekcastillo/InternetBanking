@@ -57,7 +57,7 @@
                             <li><a href="/Views/frmSeguro.aspx">Seguro</a></li>
                             <li><a href="/Views/frmActivo.aspx">Activos</a></li>
                             <li><a href="/Views/frmCertificadoDeposito.aspx">Certificados</a></li>
-                            <li><a href="/Views/frmPagoFavorito.aspx">Pegos Favoritos</a></li>
+                            <li><a href="/Views/frmPagoFavorito.aspx">Pagos Favoritos</a></li>
                             <li><a href="/Views/frmTarjetaDeCredito.aspx">Tarjetas de Credito</a></li>
                         </ul>
                     </li>
